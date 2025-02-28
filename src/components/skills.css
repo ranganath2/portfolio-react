@@ -1,0 +1,28 @@
+/*#skills {
+    padding: 30px;
+    text-align: center;
+    background-color: #ffffff;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  ul li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #4a90e2;
+    color: white;
+    border-radius: 5px;
+  }*/
+  /* Ensures skill text is always visible */
+ul li {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  background-color: #4a90e2; /* Blue background */
+  color: white; /* White text for contrast */
+  border-radius: 5px;
+}
+
+  

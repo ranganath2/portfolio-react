@@ -1,0 +1,49 @@
+/*#contact {
+    padding: 30px;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+  }
+  input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  button {
+    background-color: #4a90e2;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }*/
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white; /* Ensures input field is visible */
+    color: black; /* Ensures input text is readable */
+  }
+  
+  button {
+    background-color: #4a90e2;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  

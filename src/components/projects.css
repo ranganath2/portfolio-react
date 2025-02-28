@@ -1,0 +1,47 @@
+/* /* Projects.css 
+#projects {
+    padding: 30px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    background-color: white;
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 8px;
+    width: 60%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  ul li:hover {
+    transform: scale(1.05);
+  }*/
+  /* Ensures the project card text is visible */
+ul li {
+  background-color: white;  /* Keeps card background */
+  color: black;  /* Ensures text is black */
+  margin: 10px auto;
+  padding: 15px;
+  border-radius: 8px;
+  width: 60%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* Fix hover effect */
+ul li:hover {
+  background-color: #4a90e2;  /* Change background color on hover */
+  color: white;  /* Make text white only on hover */
+  transform: scale(1.05);
+}
